@@ -3,7 +3,7 @@
 The goal is to get a job
 Strengths: stress resistance, perseverance, purposefulness
 I have no work experience, I take various programming courses
-Beginner level skills
+Beginner level skills.
 
 ```
 $a = 5; 
