@@ -1,0 +1,169 @@
+* {
+    font-family: 'Roboto',sans-serif;
+  }
+  nav{
+    height: 50px;
+    background-color: #434343;
+  }
+  .menu {
+    margin: 0;
+    padding: 13px 70px;
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu .menu_link {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .subheader {
+    height: 300px;
+    width: 100%;
+    background-color: #fb9f9f;
+  }
+  .subheader .container {
+display: flex;
+justify-content: space-between;
+  }
+
+ .photo img {
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 300px;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.photo_text h1 {
+  margin-top: 60px; 
+    color:  #434343;
+    font-weight: 600;
+    font-size: 48px;
+    text-align:right;
+    margin-right: 30px;
+    
+}
+.photo_text h2 {
+    color:  #434343;
+    font-weight: 600;
+    font-size: 36px;
+    text-align:right;
+    margin-right: 30px;
+}
+
+.aside .container {
+  width: 370px;
+  height: 860px;
+background-color: #fb9f9f;
+}
+.aside .container {
+  padding-top: 50px;
+}
+.aside {
+  font-size: 20px;
+  font-weight: 400;
+  color: #434343;
+  text-align: center;
+ 
+}
+.aside h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #434343;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.aside_item {
+  font-size: 20px;
+  font-weight: 600;
+  color: #434343;
+  text-align: right;
+}
+.main .container {
+  font-size: 20px;
+  height: 860px;
+  background-color: #434343;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+.main h3 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: right;
+}
+.aside_main {
+  display: flex;
+}
+.about_me {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.skills {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.skills_item {
+  display: flex;
+  justify-content: space-between;
+}
+.code{
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* здесь картинка должна быть */
+}
+.project {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* здесь как-то проект вставить */
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color:#fb9f9f;
+}
+.lodo_rss img {
+  height: 50px;
+  width: auto;
+  margin-right: 30px;
+}
+footer .container .text_2022 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #434343;
+  margin-left: 30px;
+}
+footer .container .github a {
+  outline: none;
+  color: #434343;
+  font-size: 20px;
+  font-weight: 600;
+}
+.project_blog {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  font-weight: 600;
+  font-size: 20px;
+}
+.project_blog img {
+  width: 200px;
+  height: auto;
+}
+.project a {
+  margin-top: 7px;
+}
+.contacts_item {
+  list-style-type: none;
+  padding-left: 0;
+}
