@@ -82,7 +82,7 @@ background-color: #fb9f9f;
   font-size: 20px;
   font-weight: 600;
   color: #434343;
-  text-align: right;
+  text-align: center;
 }
 .main .container {
   font-size: 20px;
@@ -166,4 +166,8 @@ footer .container .github a {
 .contacts_item {
   list-style-type: none;
   padding-left: 0;
+}
+.project_blog a {
+  text-align: center;
+  background:#fb9f9f; width: 120px; height: 33px; border-radius: 5px; box-shadow: 0px 1px 3px; font-size: 20px;color:  #434343; font-weight: 600;
 }
